@@ -13,4 +13,16 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require bootstrap.min
+//= require bootstrap_offcanvas
+//= require home/main
+//= require home/jquery/jquery.min
+//= require home/jquery/jquery-migrate.min
+//= require home/bootstrap/js/bootstrap.bundle.min
+//= require home/easing/easing.min
+//= require home/wow/wow.min
+//= require home/superfish/hoverIntent
+//= require home/superfish/superfish.min
+//= require home/magnific-popup/magnific-popup.min
+//= require home/contactform/contactform
 //= require_tree .

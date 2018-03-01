@@ -12,4 +12,12 @@
  *
  *= require_tree .
  *= require_self
+ *= require bootstrap/bootstrap.min
+ *= require bootstrap/bootstrap_offcanvas
+ *= require bootstrap/bootstrap_and_overrides
+ *= require home/style
+ *= require home/animate/animate.min
+ *= require home/font-awesome/css/font-awesome.min
+ *= require home/ionicons/css/ionicons.min
+ *= require home/magnific-popup/magnific-popup
  */

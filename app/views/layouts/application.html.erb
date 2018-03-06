@@ -4,8 +4,23 @@
     <title>Freshgala</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="/assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="/assets/home/animate/animate.min.css" rel="stylesheet">
+  <link href="/assets/home/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/assets/home/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="/assets/home/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="/assets/home/style.css" rel="stylesheet">
+
+
+
   </head>
 
   <body>
@@ -13,5 +28,23 @@
       <%= render 'home/navigation' %>
     </header>
     <%= yield %>
+
+
+
+  <!-- JavaScript Libraries -->
+  <script src="/assets/home/jquery/jquery.min.js"></script>
+  <script src="/assets/home/jquery/jquery-migrate.min.js"></script>
+  <script src="/assets/home/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/home/easing/easing.min.js"></script>
+  <script src="/assets/home/wow/wow.min.js"></script>
+  <script src="/assets/home/superfish/hoverIntent.js"></script>
+  <script src="/assets/home/superfish/superfish.min.js"></script>
+  <script src="/assets/home/magnific-popup/magnific-popup.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="/assets/home/contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="/assets/home/main.js"></script>
   </body>
 </html>
